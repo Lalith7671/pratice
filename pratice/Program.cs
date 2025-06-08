@@ -10,13 +10,13 @@ namespace pratice
     {
         static void Main(string[] args)
         {
-            //even();
-            //voter();
-            //leapyear();
-            //number();
-            // maximum();
-            //maxandmin();
-            upper();
+            //even();//finding even or odd
+            //voter();//eligible voting or not
+            //leapyear();// leap year or common year
+            //number();// positive or negative or zero
+            // maximum();//finding maximum in two numbers
+            //maxandmin();//finding maximum in three numbers
+            //upper();//finding upper/lower/ space/digit/special charater
         }
         public static void even()
         {
