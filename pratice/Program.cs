@@ -12,7 +12,7 @@ namespace pratice
         {
             //even();//finding even or odd
             //voter();//eligible voting or not
-            //leapyear();// leap year or common year
+            leapyear();
             //number();// positive or negative or zero
             // maximum();//finding maximum in two numbers
             //maxandmin();//finding maximum in three numbers
@@ -53,15 +53,11 @@ namespace pratice
         {
             Console.WriteLine("enter any year:");
             int leap = Convert.ToInt32(Console.ReadLine());
-            if (leap % 4 ==0)
+            if ((leap % 4 ==0&& leap%100!=0)||(leap %400==0))
             {
-                if(leap%100==0)
-                {
-                    if (leap % 400 == 0)
-                    {
-                        Console.WriteLine("{0} it is a leap year", leap);
-                    }
-                }
+               
+             Console.WriteLine("{0} it is a leap year", leap);
+              
             }
             else
             {
